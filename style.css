@@ -399,3 +399,246 @@ body {
   top: 0;
   border-radius: 0 0 50% 50%;
 }
+/* donate-div-styles */
+.donation-section-box {
+  height: 464px;
+  margin-top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.donation-tittle {
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  height: 48px;
+  font-size: 40px;
+}
+.donation-description {
+  height: 48px;
+  margin-right: 176px;
+  margin-left: 176px;
+  margin-top: 24px;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.donate-quantity-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 128px;
+  width: 1071px;
+  gap: 24px;
+  margin-left: 104.5px;
+  margin-right: 104.5px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.donate-amount-box {
+  height: 128 px;
+  width: 240 px;
+  background-color: white;
+  padding: 40px 40px 40px 40px;
+  gap: 24px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  opacity: 80%;
+  border-radius: 16px;
+  transition: 1s;
+}
+.donate-amount-box:hover {
+  background-color: #c6e4d6;
+}
+.donate-amount-box::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.donate-amount-box-selected {
+  height: 128 px;
+  width: 240 px;
+  background-color: #c6e4d6;
+  padding: 40px 40px 40px 40px;
+  gap: 24px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  opacity: 80%;
+  border-radius: 16px;
+  transition: 1s;
+}
+.donate-amount-box-selected {
+  background-color: #c6e4d6;
+}
+.donate-amount-box-selected::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+input[type="text"] {
+  height: 64px;
+  width: 900px;
+  margin-top: 24px;
+
+  border-color: #f5f5f5;
+  padding: 2px 40px;
+  border: none;
+
+  transition: 1s;
+}
+.input-donation {
+  width: 100%;
+
+  text-align: center;
+
+  transition: 1s;
+}
+.input-donation:hover {
+  background-color: #c6e4d6;
+}
+.input-donation::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.d-c-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-btn {
+  background-color: #006a50;
+  color: #ffffff;
+  gap: 48px;
+  height: 56px;
+  width: 151px;
+  padding: 17px 34px 17px 34px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18;
+  white-space: nowrap;
+  border: none;
+  margin-top: 32px;
+  transition: 1s;
+}
+.d-btn:hover {
+  background-color: #dc0000;
+}
+.d-btn::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+/* challenge section styles */
+
+.subscribe-box {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  height: 395px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 180px;
+  transition: 1s;
+}
+.subscribe-box:hover {
+  background-color: #808180;
+}
+.subscribe-box::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.subscribe-detail-box {
+  height: 112px;
+  width: 750px;
+  text-align: center;
+  justify-content: center;
+}
+.subscribe-tittle {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.subscribe-details {
+  text-align: center;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+.subscribe-input-box {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 18px 40px;
+  margin-top: 24px;
+}
+
+input[type="email"] {
+  height: 53px;
+  width: 600px;
+  margin-top: 24px;
+
+  border-color: #f5f5f5;
+  padding: 2px 40px;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: none;
+  border-bottom-right-radius: none;
+  transition: 1s;
+}
+input[type="email"]:hover {
+  background-color: #c6e4d6;
+}
+input[type="email"]::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.s-btn {
+  background-color: #006a50;
+  color: #ffffff;
+  gap: 48px;
+  height: 56px;
+  width: 150px;
+  padding: 17px 34px;
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 18;
+  white-space: nowrap;
+  text-align: center;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
+  transition: 1s;
+}
+.s-btn:hover {
+  background-color: #dc0000;
+}
+.s-btn::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.last-line {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
