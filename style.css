@@ -116,3 +116,170 @@ body {
   height: 400px;
   position: relative;
 }
+/* vision section styles */
+
+.future-tittle {
+  font-size: 40px;
+  font-weight: bold;
+}
+.future-description {
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+
+.vision-container {
+  display: flex;
+  gap: 24px;
+}
+
+.box1,
+.box2,
+.box3 {
+  transition: 1s;
+  padding: 32px;
+  border-radius: 16px;
+  width: 410.67px;
+  height: 325px;
+}
+
+.box1 {
+  background-color: #d5e1f5;
+}
+.box1:hover {
+  background-color: #4f96d3;
+}
+
+.box1::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.box2 {
+  background-color: #c6e4d6;
+}
+.box2:hover {
+  background-color: #57db71;
+}
+
+.box2::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.box3 {
+  background-color: #f7ebcf;
+}
+.box3:hover {
+  background-color: #eeb758;
+}
+
+.box3::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.vision-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.vision-description {
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+
+.btn-p {
+  background-color: #5490f5;
+  border-color: #5490f5;
+}
+.btn-q {
+  background-color: #09a15c;
+
+  border-color: #09a15c;
+}
+.btn-r {
+  background-color: #ffc239;
+  border-color: #ffc239;
+}
+
+.btn-p,
+.btn-q,
+.btn-r {
+  color: #ffffff;
+  margin-top: 48px;
+  height: 41px;
+  width: 122px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+  border: none;
+  transition: 1s;
+}
+.btn-p:hover {
+  background-color: #000000;
+}
+
+.btn-p::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn-q:hover {
+  background-color: #000000;
+}
+
+.btn-q::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.btn-r:hover {
+  background-color: #000000;
+}
+
+.btn-r::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+/* quote section styles*/
+.bg {
+  background-image: url(./images/assets/quote-bg.png);
+  background-repeat: no-repeat;
+  padding-left: 9px;
+  background-size: 64px 64px;
+  background-color: #ffffff;
+  background-position: left top;
+  height: 256px;
+  border-radius: 16px;
+  padding: 48px 24px;
+  transition: 1s;
+}
+.quote-section {
+  margin-top: 32px;
+}
+
+.bg:hover {
+  background-color: #c6e4d6;
+}
+
+.bg::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.quote {
+  color: #0e0e0e;
+  opacity: 80%;
+  font-size: 16px;
+}
+
+.novel {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.ca {
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 60%;
+}
