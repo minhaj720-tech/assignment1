@@ -1,149 +1,118 @@
-
-
-
+/* for all body styles */
 .fira-sans {
   font-family: "Fira sans", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
-
-
-
-
-
-
-
-.heading{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   height: 120px;
-   weight:1600px;
-   
-   margin-right: 260px;
-   margin-left: 260px;
-  
-    
-    
-   
-}
-body{
-   background-color:#F1F1F3;
-  
+body {
+  background-color: #f1f1f3;
+  margin-right: 160px;
+  margin-left: 160px;
 }
 
-    .banner-profile-pic{
-        float:right;
-        width: 474.03 px;
-        height: 400px;
-        
-       
-    
-    }
-    .banner{
-        display: flex;
-                height: 373px;
-                 
-             width: 1200px;
-             
-             background-color:#C6E4D6 ;
-             padding: 100px 80px;
-             align-items: center;
-             margin-right: 260px;
-             margin-left: 260px;
-           
-  
-             border-radius: 24px;
-
-    }
-.nav-tittle{
-             
-
-        font-weight: bold;
-        font-size: 32px;
-
-
-
+/* header section styles */
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
 }
-.heading{
-    height: 100px;
-    width: 1600px;
-   
+.nav-tittle {
+  height: 38px;
+  width: 222px;
+  font-weight: bold;
+  font-size: 32px;
 }
-.banner-content{
-   
-    
-        padding-right: 100px;
-        padding-bottom: 80px;
-      
-        width: 622px;
-        height: 246px;
-
-        margin-bottom: 80px;
-
-
-
-
+.btn-sign {
+  width: 116px;
+  height: 52px;
+  border: 1px solid #006a50;
+  color: #006a50;
+  padding: 15px 30px 15px 30px;
+  font-size: 18;
+  font-weight: 600;
+  border-radius: 8px;
+  text-wrap: nowrap;
+  text-align: center;
+  transition: 1s;
 }
-.banner-tittle{
 
-               font-weight: bold;
-               font-size: 56px;
-}          
- .banner-greetings{
-                   width: 622px;
-                   height: 29px;
-                 color:#0E0E0E ;
-                 opacity: 50%;
-                 font-size: 24px;
+.btn-sign:hover {
+  background-color: #c6e4d6;
+}
+.btn-sign::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
 
- }           
+.banner {
+  display: flex;
 
+  height: 560px;
+  background-color: #c6e4d6;
+  padding: 80px 100px;
+  border-radius: 24px;
+  gap: 64px;
+  transition: 1s;
+}
+.banner:hover {
+  background-color: #808180;
+}
+.banner::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.banner-content {
+  margin-top: 117px;
 
+  width: 622px;
+  height: 326px;
+}
+.banner-greetings {
+  height: 29px;
+  color: #0e0e0e;
+  opacity: 50%;
+  font-size: 24;
+}
+.banner-tittle {
+  font-weight: bold;
+  font-size: 56;
+  margin-bottom: 24px;
+}
+.btn-primary {
+  background-color: #006a50;
+  font-weight: 600;
+  font-size: 24;
+  color: white;
+  border: none;
+  padding: 17px 34px;
+  border-radius: 8px;
+  height: 56px;
+  width: 270px;
+  text-wrap: nowrap;
+  margin-bottom: 117 px;
+  transition: 1s;
+}
 
+.btn-primary:hover {
+  background-color: #dc0000;
+}
+.btn-primary::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.monument {
+  margin-left: 64px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 60px;
+}
 
-
-
-    .btn-sign{
-               width: 116px;
-               height: 52px;
-               border: 1px solid #006A50 ;
-               color:#006A50;
-               padding:15px 30px 15px 30px;
-                font-size: 18;
-                font-weight:600;    
-                border-radius: 8px;
-                 margin-right: 250px;
-                text-align: center;
-
-
-
-
-
-    }
-    .btn-primary{
-        background-color:#006A50;
-        font-weight:600;
-        font-size: 20 px;
-        color: white;
-        border: none;
-        padding: 17px 34px;
-        border-radius: 8px;
-        height: 56px;
-        width: 270px;
-        
-        
-     
-     }
-     .monument{
-
-           margin-top: 180px;
-           margin-bottom: 80px;
-
-
-
-     }
+.banner-profile-pic {
+  width: 474.03 px;
+  height: 400px;
+  position: relative;
+}
